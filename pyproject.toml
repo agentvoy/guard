@@ -41,3 +41,6 @@ Issues = "https://github.com/agentvoy/guard/issues"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["agentvoy_guard*"]
+
+[tool.setuptools.package-data]
+agentvoy_guard = ["py.typed"]
